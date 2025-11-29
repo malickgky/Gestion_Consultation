@@ -4,7 +4,7 @@ import net.lamah.gestion_consultation.entities.Consultation;
 
 import java.util.List;
 
-public class ConsultationDao implements iConsulationDao {
+public class ConsultationDao implements IConsulationDao {
     @Override
     public void create(Consultation consultation) {
 

@@ -1,9 +1,7 @@
 package net.lamah.gestion_consultation.dao;
 
-import net.lamah.gestion_consultation.entities.Consultation;
 import net.lamah.gestion_consultation.entities.Patient;
 
-import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PatientDao implements iPatientDao {
+public class PatientDao implements IPatientDao {
 
     @Override
     public void create(Patient patient) throws SQLException {
